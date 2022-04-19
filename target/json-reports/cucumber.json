@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19482957000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to \"homepage_url\" login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"homepage_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.userNavigatesToLoginPage(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-19T22:39:55.319Z",
+        "line": 14,
+        "name": "Try to login with invalid credentials",
+        "description": "",
+        "id": ";try-to-login-with-invalid-credentials;invalid-username-and-password;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1875885000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on email textbox",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.clickOnEmailTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327237000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Provide email \"email_2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email_2\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.provideEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419952000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on password textbox",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.clickOnPasswordTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48734000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Provide password \"password_1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password_1\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.providePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093529000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.userClicksLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Unable to login (HTTP error: 429\u0027/\u0027error)] but found [Credentials are not valid]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat stepDefinitions.LoginStepDefinitions.userShouldBeSeenMessages(LoginStepDefinitions.java:50)\n\tat ✽.User should be seen \"Credentials are not valid\" messages(file:///Users/muazsalihkurnaz/IdeaProjects/sysdig/src/test/resources/features/login.feature:11)\n",
+              "duration": 249342000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be seen \"Credentials are not valid\" messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credentials are not valid\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.userShouldBeSeenMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2089329000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user navigates to \"homepage_url\" login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"homepage_url\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.userNavigatesToLoginPage(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-19T22:40:18.861Z",
+        "line": 15,
+        "name": "Try to login with invalid credentials",
+        "description": "",
+        "id": ";try-to-login-with-invalid-credentials;invalid-username-and-password;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 418585000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on email textbox",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.clickOnEmailTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168131000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Provide email \"email_3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email_3\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.provideEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38911000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on password textbox",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.clickOnPasswordTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32322000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Provide password \"password_2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password_2\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.providePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083865000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinitions.userClicksLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Unable to login (HTTP error: 429\u0027/\u0027error)] but found [Credentials are not valid]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat org.testng.Assert.assertEquals(Assert.java:585)\n\tat stepDefinitions.LoginStepDefinitions.userShouldBeSeenMessages(LoginStepDefinitions.java:50)\n\tat ✽.User should be seen \"Credentials are not valid\" messages(file:///Users/muazsalihkurnaz/IdeaProjects/sysdig/src/test/resources/features/login.feature:11)\n",
+              "duration": 162131000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be seen \"Credentials are not valid\" messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credentials are not valid\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStepDefinitions.userShouldBeSeenMessages(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
